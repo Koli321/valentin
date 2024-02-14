@@ -34,7 +34,3 @@ let phrases = [
       advice.style.fontSize = '42px';
     }
   });
-    for (let i = 0; i <= 2; i = i + 1) {
-    smoothly(phrase, 'textContent', phrases[i].text);
-    smoothly(image, 'src', phrases[i].image); 
-  };
